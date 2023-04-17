@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire d'inscription</title>
+</head>
+<body>
+ <h1>FORMULAIRE D'INSCRIPTION</h1>
+    <form action="mailto:votreemail@email.com"></form>
+    
+<label>Prénom: <input type="text" minlength="2" maxlength="20" placeholder="Entre 2 et 20 caractères "> </label> <br>
+<label>Nom: <input type="text" minlength="2" maxlength="20" placeholder="Entre 2 et 20 caractères"> </label> <br>
+<label>Age: <input type="number" min="0" max="150"> </label> <br>
+<label>Sexe: <input type="radio" name="Sexe" value="Homme"/> Homme </label> 
+<label><input type="radio" name="Sexe" value="Femme"/> Femme </label> <br>
+<label> Mail: <input type="email" maxlength="30"> </label> <br>
+<label>Adresse Postale: <input type="text" maxlength="45"> </label>
+<label>Code Postale: <input type="text" name="Code Postale" maxlength="5" minlength="5"> </label> <br>
+<label>Ville: <input type="text" minlength="2" maxlength="40"></label> <br>
+
+<label>Metier exercé: <select name="Metier">
+<option>Choisir une catégorie</option>
+<option>Agriculteurs exploitants</option>
+<option>Artisans, commerçants et chefs d'entreprise</option>
+<option>Cadres et professions intellectuelles supérieures</option>
+<option>Professions intermédiaires</option>
+<option>Employés</option>
+<option>Ouvriers</option>
+<option>Retraités</option>
+<option>Autres personnes sans activité professionnelle</option>
+</select></label> <br>
+
+<label>Nationalité: <select name="Nationalité">
+<option>Française</option> 
+<option>Belge</option>
+<option>Anlaise</option>
+<option>espagnole</option>
+<option>Allemande</option>
+<option>Italienne</option>
+<option>Portugaise</option>
+<option>Russe</option>
+<option>Croate</option>
+<option>Polonaise</option>
+<option>Serbe</option>
+<option>Danoise</option>
+</select></label> <br>
+
+<label for="birthdate">Date de naissance: </label>
+<input type="date" id="birthdate" name="birthdate"> <br>
+
+<label>Pays de naissance: <select name="Pays">
+<option>France</option>
+<option>Belgique</option>
+<option>Angleterre</option>
+<option>Espagne</option>
+<option>Allemagne</option>
+</select></label> <br>
+
+<label>Numéro de sécurité social: <input type="text" minlength="15" maxlength="15" placeholder="Entrez 15 chiffres "></label><br>
+<label>Numéro du passeport: <input type="text"></label> <br>
+<label>Date de délivrance du passeport: <input type="date"></label> <br>
+<label>Date de validité du passeport: <input type="date"></label> <br>
+<button type="submit"> Envoyer !</button> 
+</body>
+</html>
